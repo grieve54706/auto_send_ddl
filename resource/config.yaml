@@ -1,0 +1,22 @@
+rocket_chat:
+  user: 'rocket@mail.com'
+  pass: 'password'
+  server_url: 'http://localhost:3000'
+
+file_folder: '/home/user/'
+file_name: 'DB_DDL_2020{}.docx'
+
+gmail:
+  user: 'yourname@gmail.com'
+  pass: 'yourpassword'
+
+mail:
+  subject: 'Subject DB DDL Doc {} - {}'
+  to: 'target@mail.com'
+  cc:
+    - 'other@mail.com'
+  content: |
+    Dears
+    The attach
+    {}
+  content_file_name: '{} DB DDL Doc'
